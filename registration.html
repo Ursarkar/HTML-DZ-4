@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<hr>
+<h1><a href="index.html">Главная</a>/Регистрация</h1>
+<hr>
+<ul>
+    <li><a href="article.html">Статьи</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+    <li><a href="gallery.html">Галерея изображения</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+</ul>
+<hr>
+
+<form action="" target="_self" method="GET">
+    <fieldset>
+        <legend>Форма для регистрации</legend>
+        <p>
+        <label for="secname">Фамилия:</label>
+        <input type="text" name="secname" placeholder="Фамилия" required>    
+        </p>
+        <p>
+        <label for="name">Имя:</label>
+        <input type="text" name="name" placeholder="Имя" required>
+        </p>
+        <p>
+            <label for="patronymic">Отчество:</label> 
+            <input type="text" name="patronymic" placeholder="Отчество" required>
+        </p>
+        <p>
+            <label for="file">Выберите изображение:</label>
+            <input type="file" name="file" required>
+        </p>
+       <p>
+            <label for="email">Электронная почта:</label>
+            <input type="email" name="email" placeholder="Введите email" required>
+       </p> 
+       <p>
+           <label for="password">Пароль:</label>
+           <input type="password" name="password" placeholder="Введите пароль" required>
+       </p>
+       <p>
+            <label for="site">Адрес сайта:</label>
+            <input type="url" name="site" value="http://">
+       </p>
+       <p>
+            <label for="sex">Выберите пол:</label>     
+            <select name="sex">
+                <option value="мужской">Мужской</option>
+                <option value="женский">Женский</option>
+            </select>     
+       </p>
+       <p>
+           <label for="date">Дата рождения</label>
+           <input type="date" name="date" required>
+       </p>
+       <p>
+           <label for="kitchen">Любимая кухня</label><br>
+           <input type="checkbox" name="fr"> Французская <br>
+           <input type="checkbox" name"it"> Итальянская <br>
+           <input type="checkbox" name="ch"> Китайская <br>
+           <input type="checkbox" name="rus"> Русская <br>
+           <input type="checkbox" name="lam"> Латиноамериканская <br>
+           <input type="checkbox" name="jp"> Японская <br>           
+       </p>
+       <p>
+           <textarea name="about"  cols="70" rows="15" placeholder="О себе"></textarea>
+       </p>    
+       <button type="submit">Зарегистироваться</button>
+       <button type="reset">Очистить форму</button>
+    </fieldset>
+</form>
+
+    
+</body>
+<footer>&copy;</footer>
+</html>
