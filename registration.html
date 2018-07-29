@@ -3,62 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
+    <link rel="stylesheet" href="decor.css">
 </head>
 <body>
 <hr>
-<h1><a href="index.html">Главная</a>/Регистрация</h1>
+
+<div class="title">
+<h1 class="title__h1"><a href="index.html">Главная</a>/Регистрация</h1>
 <hr>
-<ul>
+<ul class="title__list">
     <li><a href="article.html">Статьи</a></li>
     <li><a href="catalog.html">Каталог</a></li>
     <li><a href="gallery.html">Галерея изображения</a></li>
     <li><a href="contacts.html">Контакты</a></li>
-</ul>
+</ul>    
+</div>
 <hr>
 
+<div class="fill">
 <form action="" target="_self" method="GET">
     <fieldset>
         <legend>Форма для регистрации</legend>
-        <div>
+        <div class="fill_sname">
         <label for="secname">Фамилия:</label>
         <input type="text" name="secname" placeholder="Фамилия" required>    
         </div>
-        <div>
+        <div class="fill_name">
         <label for="name">Имя:</label>
         <input type="text" name="name" placeholder="Имя" required>
         </div>
-        <div>
+        <div class="fill__patr">
             <label for="patronymic">Отчество:</label> 
             <input type="text" name="patronymic" placeholder="Отчество" required>
         </div>
-        <div>
+        <div class="fill__image">
             <label for="file">Выберите изображение:</label>
             <input type="file" name="file" required>
         </div>
-       <div>
+       <div class="fill_email">
             <label for="email">Электронная почта:</label>
             <input type="email" name="email" placeholder="Введите email" required>
        </div> 
-       <div>
+       <div class="fill__password">
            <label for="password">Пароль:</label>
            <input type="password" name="password" placeholder="Введите пароль" required>
        </div>
-       <div>
+       <div class="fill__site">
             <label for="site">Адрес сайта:</label>
             <input type="url" name="site" value="http://">
        </div>
-       <div>
+       <div class="fill__sex">
             <label for="sex">Выберите пол:</label>     
             <select name="sex">
                 <option value="мужской">Мужской</option>
                 <option value="женский">Женский</option>
             </select>     
        </div>
-       <div>
+       <div class="fill__date">
            <label for="date">Дата рождения</label>
            <input type="date" name="date" required>
        </div>
-       <div>
+       <div class="fill__kitchen">
            <label for="kitchen">Любимая кухня</label><br>
            <input type="checkbox" name="fr"> Французская <br>
            <input type="checkbox" name"it"> Итальянская <br>
@@ -67,13 +72,15 @@
            <input type="checkbox" name="lam"> Латиноамериканская <br>
            <input type="checkbox" name="jp"> Японская <br>           
        </div>
-       <div>
+       <div class="fill__about">
            <textarea name="about"  cols="70" rows="15" placeholder="О себе"></textarea>
        </div>    
-       <button type="submit">Зарегистироваться</button>
-       <button type="reset">Очистить форму</button>
+       <button class="fill__button fill__button--question" type="submit">Зарегистироваться</button>
+       <button class="fill__button fill__button--clean" type="reset">Очистить форму</button>
     </fieldset>
-</form>
+</form>    
+</div>
+
 
     
 </body>

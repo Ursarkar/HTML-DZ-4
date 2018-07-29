@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="decor.css">
 </head>
 <body>
 <hr>
-<h1><a href="index.html">Главная</a>/Каталог</h1>
+
+<div class="title">
+<h1 class="title__h1"><a href="index.html">Главная</a>/Каталог</h1>
 <hr>
-<ul>
+<ul class="title__list">
     <li><a href="article.html">Статьи</a></li>
     <li><a href="gallery.html">Галерея изображений</a></li>
     <li><a href="registration.html">Регистрация</a></li>
     <li><a href="contacts.html">Контакты</a></li>
-</ul>
-<hr>
-<h2>Товары</h2>
-<ul>
+</ul> 
+</div>  
+
+<hr>  
+
+<div class="content">
+<h2 class="content__h2">Товары</h2>
+<ul class="content__list_ul">
     <li>Цветы
-        <ul>
+        <ol class="content__list_ol">
             <li>Живые цветы</li>
             <li>Искусственные цветы</li>
-        </ul>
+        </ol>
     </li>
     <li>Игрушки
-        <ul>
+        <ol class="content__list_ol">
             <li>Мягкие игрушки</li>
             <li>Конструкторы</li>
-        </ul>
+        </ol>
     </li>
     <li>Книги
-        <ul>
+        <ol class="content__list_ol">
             <li>Аудиокниги</li>
             <li>Книги в мягком переплете</li>
-        </ul>
+        </ol>
     </li>
-</ul>
-
-
-
+</ul>    
+</div>
 
 </body>
 <footer>&copy;</footer>
