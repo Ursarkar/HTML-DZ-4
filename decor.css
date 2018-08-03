@@ -1,6 +1,6 @@
 .title {
 }
-.title__h1{
+.title__header{
 }
 .title__list{
 }
@@ -8,11 +8,7 @@
 
 .content{
 }
-.content__h2{
-}
-.content__h3{
-}
-.content__h4{
+.content__header{
 }
 .content__link{ 
 }
