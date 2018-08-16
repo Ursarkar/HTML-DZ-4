@@ -1,11 +1,30 @@
-.title {
+/*селекторы идентификатора*/
+#header{
 }
-.title__header{
-}
-.title__list{
+#list{
 }
 
+/*селекторы потомков*/
+div>ol{
+}
 
+/*селекторы псевдоклассов*/
+a:link{
+}
+a:hover{
+}
+a:visited{
+}
+textarea:focus{
+}
+button:hover{
+}
+input:valid{
+}
+input:invalid{
+}
+
+/*селекторы классов*/
 .content{
 }
 .content__header{
@@ -14,15 +33,11 @@
 }
 .content__link__image{
 }
-.content__list_ul{
-}
-.content__list_ol{
-}
 .content__text{
 }
 
 
-.fill{
+.fill:invalid{
 }
 .fill__sname{
 }
